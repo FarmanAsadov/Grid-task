@@ -1,0 +1,199 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2a7cc7;
+  background-image: url("../assets/images/bg-girl.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 35.7%;
+}
+@media (max-width: 615px) {
+  body {
+    background-image: none;
+  }
+}
+
+#main .main__container {
+  display: grid;
+  margin-top: 8rem;
+  margin-left: 8rem;
+  color: #fff;
+}
+@media (max-width: 615px) {
+  #main .main__container {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+#main .main__container h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+#main .main__container p {
+  margin-bottom: 50px;
+}
+#main .main__container-user {
+  display: flex;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+@media (max-width: 615px) {
+  #main .main__container-user {
+    margin-left: 4.5rem;
+    -moz-column-gap: 0.5rem;
+         column-gap: 0.5rem;
+  }
+}
+#main .main__container-user .user-img {
+  width: 60px;
+  height: 60px;
+}
+#main .main__container-user-list ul {
+  display: flex;
+  margin-bottom: 15px;
+}
+@media (max-width: 615px) {
+  #main .main__container-user-list ul {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 615px) {
+  #main .main__container-user-bottom-text {
+    width: 200px;
+  }
+}/*# sourceMappingURL=index4.css.map */

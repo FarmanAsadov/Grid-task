@@ -1,0 +1,59 @@
+@import "./style";
+
+body {
+  background-color: #2a7cc7;
+  background-image: url("../assets/images/bg-girl.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 35.7%;
+  @include mobile {
+    background-image: none;
+  }
+}
+
+#main {
+  .main__container {
+    display: grid;
+    margin-top: 8rem;
+    margin-left: 8rem;
+    color: #fff;
+    @include mobile {
+      text-align: center;
+      margin-left: 0;
+    }
+    h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 50px;
+    }
+    p {
+      margin-bottom: 50px;
+    }
+    &-user {
+      display: flex;
+      column-gap: 2rem;
+      @include mobile {
+        margin-left: 4.5rem;
+        column-gap: 0.5rem;
+      }
+      .user-img {
+        width: 60px;
+        height: 60px;
+      }
+      &-list {
+        ul {
+          display: flex;
+          margin-bottom: 15px;
+          @include mobile {
+            margin-left: 10px;
+          }
+        }
+      }
+      &-bottom-text {
+        @include mobile {
+          width: 200px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@import "./style";
+
+#main {
+  .main__container {
+    text-align: center;
+    &-header {
+      margin-top: 20px;
+      &-h2 {
+        font-size: 2rem;
+        font-weight: 700;
+      }
+      &-text {
+        margin-top: 20px;
+        opacity: 0.7;
+      }
+    }
+    &-center {
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      margin-top: 6rem;
+      &-card {
+        &-text {
+          opacity: 0.5;
+          margin: 10px 0;
+          font-weight: 600;
+        }
+        &-name {
+          color: #23a6f0;
+          font-weight: 600;
+          margin-bottom: 10px;
+        }
+        &-work {
+          font-weight: 600;
+          opacity: 0.5;
+        }
+      }
+      &-list {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+      }
+    }
+  }
+}
+
+.line {
+  border-left: 1px solid lightgray;
+}

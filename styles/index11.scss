@@ -1,0 +1,52 @@
+@import "./style";
+
+#main {
+  .main__container {
+    &-header {
+      margin-top: 5rem;
+      text-align: center;
+      &-h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+      }
+      &-text {
+        font-size: 18px;
+        font-weight: bold;
+        opacity: 0.6;
+      }
+    }
+    &-center {
+      margin-top: 10rem;
+      margin-left: 18rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      .cards {
+        display: flex;
+        column-gap: 2rem;
+        .user-info {
+          .user-name {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 15px;
+          }
+          .user-work {
+            font-weight: 700;
+            opacity: 0.6;
+            margin-bottom: 15px;
+          }
+          .list {
+            display: flex;
+            column-gap: 1rem;
+            margin-bottom: 15px;
+          }
+          .text {
+            width: 50%;
+            opacity: 0.7;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}

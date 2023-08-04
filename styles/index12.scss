@@ -1,0 +1,57 @@
+@import "./style";
+
+#main {
+  .main__container {
+    &-header {
+      margin-top: 2.5rem;
+      text-align: center;
+      &-h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+      }
+      &-text {
+        font-size: 12px;
+        font-weight: bold;
+        opacity: 0.6;
+        margin: 0;
+        padding: 0;
+      }
+    }
+    &-center {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-content: center;
+      text-align: center;
+      margin-top: 3rem;
+      .cards {
+        width: 80%;
+        margin-left: 2.5rem;
+        .list {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 10px;
+        }
+        .user-info {
+          .user-name {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 10px;
+          }
+          .user-work {
+            font-weight: 700;
+            opacity: 0.6;
+            margin-bottom: 15px;
+          }
+
+          .text {
+            opacity: 0.7;
+            padding: 0 50px;
+            font-weight: 500;
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+}
